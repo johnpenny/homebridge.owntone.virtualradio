@@ -1,3 +1,6 @@
+# Ignore misc repo files
+misc
+
 # Ignore source code
 src
 
