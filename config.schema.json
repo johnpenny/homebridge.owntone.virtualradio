@@ -1,0 +1,194 @@
+{
+    "pluginAlias": "owntone-virtual-radio",
+    "pluginType": "platform",
+    "singular": true,
+    "headerDisplay": "# Homebridge – OwnTone – Virtual Radio \n[README <i class='fas fa-external-link-alt'></i>](https://github.com/johnpenny/homebridge.owntone.virtualradio#readme)  •  [Troubleshooting <i class='fas fa-external-link-alt'></i>](https://github.com/johnpenny/homebridge.owntone.virtualradio/blob/master/troubleshooting.md)  •  [OwnTone Install Guide <i class='fas fa-external-link-alt'></i>](https://github.com/johnpenny/homebridge.owntone.virtualradio/blob/master/owntoneinstallguide.md)",
+    "footerDisplay": "[README <i class='fas fa-external-link-alt'></i>](https://github.com/johnpenny/homebridge.owntone.virtualradio#readme)  •  [Troubleshooting <i class='fas fa-external-link-alt'></i>](https://github.com/johnpenny/homebridge.owntone.virtualradio/blob/master/troubleshooting.md)  •  [OwnTone Install Guide <i class='fas fa-external-link-alt'></i>](https://github.com/johnpenny/homebridge.owntone.virtualradio/blob/master/owntoneinstallguide.md) <br/><br/>Known Major Issues:</br>• Paired HomePods do not behave as expected as OwnTone Outputs. Also, their physical buttons will act as pause/play buttons.",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "condition": "false",
+                "type": "string",
+                "required": true,
+                "default": "OwnTone Virtual Radio"
+            },
+            "uxPanelChooser": {
+                "type": "object",
+                "title": " ",
+                "description": "",
+                "properties": {
+                    "panel": {
+                        "type": "string",
+                        "title": "Isolate Config Panels - None Shows All Panels",
+                        "description": "",
+                        "oneOf": [
+                            {
+                                "title": "OwnTone Server",
+                                "enum": [ "owntoneServer" ]
+                            },
+                            {
+                                "title": "Virtual Radio Switches",
+                                "enum": [ "virtualRadios" ]
+                            },
+                            {
+                                "title": "Radio Station Switches",
+                                "enum": [ "stationSwitches" ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "owntoneServer": {
+                "condition": {
+                    "functionBody": "return model.uxPanelChooser.panel === 'owntoneServer';"
+                },
+                "type": "object",
+                "title": "OwnTone Server",
+                "description": "<br/><hr/></br>",
+                "properties": {
+                    "hostname": {
+                        "type": "string",
+                        "required": true,
+                        "format": "hostname",
+                        "title": "OwnTone Server Hostname",
+                        "description": "Probably: owntone.local • Important: Must be an IP, or hostname and domain",
+                        "placeholder": "owntone.local",
+                        "default": "owntone.local"
+                    },
+                    "port": {
+                        "type": "number",
+                        "required": true,
+                        "title": "OwnTone Server Port",
+                        "description": "Probably: 3689  •  Important: Enter 0 for no port",
+                        "placeholder": 3689,
+                        "default": 3689
+                    },
+                    "protocol": {
+                        "type": "string",
+                        "required": true,
+                        "title": "OwnTone Server Protocol",
+                        "description": "Probably: HTTP",
+                        "default": "http://",
+                        "oneOf": [
+                            {
+                                "title": "HTTP",
+                                "enum": [ "http://" ]
+                            },
+                            {
+                                "title": "HTTPS",
+                                "enum": [ "https://" ]
+                            }
+                        ]
+                    },
+                    "outputReporting": {
+                        "type": "boolean",
+                        "required": true,
+                        "title": "OwnTone Output Reporting",
+                        "description": "Print OwnTone output details in the Homebridge log upon each restart. You can use those details to set up the plugin. If you are setting this plugin up for the first time you may want to restart Homebridge now to view the output report.",
+                        "default": true
+                    }
+                }
+            },
+            "virtualRadios": {
+                "condition": {
+                    "functionBody": "return model.uxPanelChooser.panel === 'virtualRadios';"
+                },
+                "type": "object",
+                "title": " ",
+                "description": "<br/><hr/></br>",
+                "properties": {
+                    "radios": {
+                        "type": "array",
+                        "title": "Virtual Radio Switches",
+                        "description": "Stateful 'power' switches • When you turn these on/off, their linked outputs will do the same in OwnTone.",
+                        "buttonText": "Add A Radio",
+                        "orderable": false,
+                        "required": true,
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "required": true,
+                                    "title": "Radio Name",
+                                    "placeholder": "Radio",
+                                    "default": "Radio",
+                                    "description": "I recommend 'Radio' or 'OwnTone' • This will be used with Siri • [Hey Siri switch on the] Radio"
+                                },
+                                "room": {
+                                    "type": "string",
+                                    "required": true,
+                                    "title": "Room Name",
+                                    "placeholder": "LivingRoom",
+                                    "default": "LivingRoom",
+                                    "description": "Used for the 'Serial Number' in HomeKit • So YOU can determine which room this radio is for"
+                                },
+                                "outputs": {
+                                    "type": "array",
+                                    "title": " ",
+                                    "description": "–– Now Link Existing OwnTone Outputs To This Virtual Radio ––",
+                                    "buttonText": "Add An Output",
+                                    "orderable": false,
+                                    "required": true,
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "name": {
+                                                "type": "string",
+                                                "required": true,
+                                                "title": "Exact Output Name",
+                                                "placeholder": "Living Room HomePod",
+                                                "default": "Living Room HomePod",
+                                                "description": "Tip: Get names from the 'OwnTone Output Report' in the Homebridge log after a restart"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "stationSwitches": {
+                "condition": {
+                    "functionBody": "return model.uxPanelChooser.panel === 'stationSwitches';"
+                },
+                "type": "object",
+                "title": " ",
+                "description": "<br/><hr/></br>",
+                "properties": {
+                    "stations": {
+                        "type": "array",
+                        "title": "Radio Station Switches",
+                        "description": "Stateless 'push button' switches – When you turn one on the track will change in OwnTone – Add a tag into the Genre field of a track, and a switch will be generated for it. Tag all the tracks you wish to generate a switch for. You can utilise multiple tags.",
+                        "buttonText": "Add A Genre Tag",
+                        "orderable": false,
+                        "required": true,
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "tag": {
+                                    "type": "string",
+                                    "required": true,
+                                    "title": "Genre Tag",
+                                    "placeholder": "[hovr]",
+                                    "default": "[hovr]",
+                                    "description": "The tag can be anywhere in the Genre field, or be the whole field • Ensure tags are unique to avoid false matches! • I recommend using brackets to further avoid false matches"
+                                }
+                            }
+                        }
+                    },
+                    "stationPrefix": {
+                        "type": "string",
+                        "title": "Station Switches Prefix",
+                        "description": "I recommend 'Radio' • This will be used with Siri • [Hey Siri turn on] Radio [Tack Name]",
+                        "required": true,
+                        "placeholder": "Radio",
+                        "default": "Radio"
+                    }
+                }
+            }
+        }
+    }
+}
