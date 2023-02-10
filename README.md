@@ -78,12 +78,15 @@ DO NOT SAY: (NOTE that using 'to' is not valid)
 NOTE: saying 'BBC Radio'+'anything' causes all of my Apple devices to play 'BBC Radio Stoke from tunein' and I have no idea why – this is why my BBC playlists don't have track names prefixed with 'BBC', if you were wondering.
 
 ## Limitations
+### With Homebridge / HomeKit
 - Homebridge can only manage a maximum of 150 devices unless you run multiple bridges; keep this in mind when adding station switches
+- Each station button must be a stand alone switch device in HomeKit due to the way sub-accessories are handled with Siri - I hope at some point they can be combined and work cleanly with Siri commands, but for now It does not seem possible
+### With OwnTone
 - Only one radio station will play on all speakers (If anyone wants multiple OwnTone server support please say)
 - Anyone with access to OwnTone can change what is playing, the linked speakers will not disconnect dependant on media source
 - OwnTone 'hogs' an output; if you play something else on the output, it will be immediately replaced by OwnTone again. Turn the output off in OwnTone to stop this
 - Paired HomePods do not behave in the way you would expect with OwnTone. They will show as two outputs, and their physical volume buttons send a pause/play command
-- Each station button must be a stand alone switch device in HomeKit due to the way sub-accessories are handled with Siri - I hope at some point they can be combined and work cleanly with Siri commands, but for now It does not seem possible
+- Pause/Play, Next/previous commands do not behave as expected with OwnTone. Pause/Play will work when the delay between them is short. Next/Previous will not work correctly
 
 ## Anticipated Questions & Answers
 - Q: Can you add playlist/artist/genre/album stations?
@@ -98,6 +101,10 @@ NOTE: saying 'BBC Radio'+'anything' causes all of my Apple devices to play 'BBC 
     - A: It should not, if it does please report it to me. It places the stream track in the next queue slot and skips to it, so it should not cause issues
 - Q: Why are you not using room prefixing to indicate the room?
     - A: I was, it stopped working at some point during christmas 2022. Now I just name the switches 'Radio' and print the room details within the Serial Number
+- Q: Will this play a stream forever, wasting my bandwidth?
+    - A: No, when you turn off an output there is a check for other active outputs. If nothing is receiving then the stream is paused
+        - Note if outputs have been selected by you, and they have no link to a virtual radio, then they will never be affected by this plugin and the stream may play forever
+        - Note the HTTP stream is not an output and will be paused if there is no active output
 
 ## Device Management
 ### Virtual Radio Switches
