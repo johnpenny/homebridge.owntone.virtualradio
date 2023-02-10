@@ -81,7 +81,7 @@ export class OwnToneVirtualRadioPlatform implements DynamicPlatformPlugin {
                 'removeSpare': 'Removing old accessory, as it is no longer valid with your config:',
                 'loadFromCache': 'Loading accessory from cache:',
                 'restoreFromCache': 'Restoring existing accessory from cache:',
-                'removeFromCache': 'Removing existing accessory from cache due to bad confguration:',
+                'removeFromCache': 'Removing existing accessory from cache due to bad configuration:',
                 'add': 'Adding new accessory:',
                 'newBadConfig': 'A new accessory was found but not set up as it has a bad configuration:',
             },
