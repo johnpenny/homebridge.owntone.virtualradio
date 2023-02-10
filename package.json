@@ -1,9 +1,8 @@
 {
-  "private": true,
   "displayName": "OwnTone Virtual Radio",
   "name": "@johnpenny/homebridge-owntone-virtual-radio",
-  "version": "1.0.0",
-  "description": "Assign AirPlay speakers to virtual radios, and switch stations from a playlist. Requires an OwnTone server instance running.",
+  "version": "1.0.1",
+  "description": "Assign OwnTone outputs to virtual radio switches, and play radio streams in OwnTone with switches. Requires an OwnTone server instance running.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
