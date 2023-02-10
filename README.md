@@ -86,7 +86,7 @@ NOTE: saying 'BBC Radio'+'anything' causes all of my Apple devices to play 'BBC 
 - Anyone with access to OwnTone can change what is playing, the linked speakers will not disconnect dependant on media source
 - OwnTone 'hogs' an output; if you play something else on the output, it will be immediately replaced by OwnTone again. Turn the output off in OwnTone to stop this
 - Paired HomePods do not behave in the way you would expect with OwnTone. They will show as two outputs, and their physical volume buttons send a pause/play command
-- Pause/Play, Next/previous commands do not behave as expected with OwnTone. Pause/Play will work when the delay between them is short. Next/Previous will not work correctly
+- Pause/Play, Next/Previous commands do not behave as expected with OwnTone. Pause/Play will work when the delay between them is short. Next/Previous will not work correctly
 
 ## Anticipated Questions & Answers
 - Q: Can you add playlist/artist/genre/album stations?
