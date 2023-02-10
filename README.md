@@ -30,7 +30,7 @@
     - You may view a verbose log of everything the plugin is doing by turning on 'Homebridge Debug Mode -D' in the 'Homebridge Settings' panel (top right ⋮)
 
 ## How Do I Tag Tracks?
-Look in the 'Example Radio Playlists' directory
+Look in the /misc/'Example Radio Playlists' directory for example playlists with some tracks pre-tagged.
 
 For an .m3u playlist your genre field will be '#EXTGENRE:' and within this field you should add your tag, as below:
 ```
