@@ -92,7 +92,7 @@ NOTE: saying 'BBC Radio'+'anything' causes all of my Apple devices to play 'BBC 
 - Q: Can I use this to make OwnTone on/off switches for my rooms, then use the web UI to play anything I want?
     - A: Yes; You can name the 'Virtual Radios' anything you want and use them only for OwnTone output control
 - Q: Can I use these BBC Radio playlists from outside the UK?
-    - A: There is an international playlist in the examples file. Please let me know if it does not work from outside the UK. Note that it is lower quality than the UK streams.
+    - A: There is an international playlist in the examples directory. Please let me know if it does not work from outside the UK. Note that it is lower quality than the UK streams.
 - Q: Does this mess up my OwnTone queue?
     - A: It should not, if it does please report it to me. It places the stream track in the next queue slot and skips to it, so it should not cause issues
 - Q: Can you add playlist/artist/genre/album stations?
