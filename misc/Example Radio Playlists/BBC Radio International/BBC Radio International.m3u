@@ -1,0 +1,329 @@
+#EXTM3U
+
+
+# BBC NATIONAL (International):
+
+
+#EXTINF:-1, BBC Radio - One
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_one.m3u8
+
+#EXTINF:-1, BBC Radio - One Extra
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_1xtra.m3u8
+
+#EXTINF:-1, BBC Radio - One Dance
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_one_dance.m3u8
+
+#EXTINF:-1, BBC Radio - One Relax
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_one_relax.m3u8
+
+#EXTINF:-1, BBC Radio - Two
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_two.m3u8
+
+#EXTINF:-1, BBC Radio - Three
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_three.m3u8
+
+#EXTINF:-1, BBC Radio - Four
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_fourfm.m3u8
+
+#EXTINF:-1, BBC Radio - Four Longwave
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_fourlw.m3u8
+
+#EXTINF:-1, BBC Radio - Four Extra
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_four_extra.m3u8
+
+#EXTINF:-1, BBC Radio - Five Live
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_five_live.m3u8
+
+#EXTINF:-1, BBC Radio - Six Music
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_6music.m3u8
+
+#EXTINF:-1, BBC Radio - Five Live sports extra
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_five_live_sports_extra.m3u8
+
+#EXTINF:-1, BBC Radio - Asian Network
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_asian_network.m3u8
+
+#EXTINF:-1, BBC Radio - World Service
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8
+
+
+# BBC LOCAL (International):
+
+
+#EXTINF:-1, BBC Radio - CWR
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_coventry_warwickshire.m3u8
+
+#EXTINF:-1, BBC Radio - Essex
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_essex.m3u8
+
+#EXTINF:-1, BBC Radio - Hereford and Worcester
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_hereford_worcester.m3u8
+
+#EXTINF:-1, BBC Radio - Berkshire
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_berkshire.m3u8
+
+#EXTINF:-1, BBC Radio - Bristol
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_bristol.m3u8
+
+#EXTINF:-1, BBC Radio - Cambridge
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cambridge.m3u8
+
+#EXTINF:-1, BBC Radio - Cornwall
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cornwall.m3u8
+
+#EXTINF:-1, BBC Radio - Cumbria
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cumbria.m3u8
+
+#EXTINF:-1, BBC Radio - Cymru
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cymru.m3u8
+
+#EXTINF:-1, BBC Radio - Cymru Two
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_cymru_2.m3u8
+
+#EXTINF:-1, BBC Radio - Derby
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_derby.m3u8
+
+#EXTINF:-1, BBC Radio - Devon
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_devon.m3u8
+
+#EXTINF:-1, BBC Radio - Foyle
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_foyle.m3u8
+
+#EXTINF:-1, BBC Radio - Gloucestershire
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_gloucestershire.m3u8
+
+#EXTINF:-1, BBC Radio - Guernsey
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_guernsey.m3u8
+
+#EXTINF:-1, BBC Radio - Humberside
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_humberside.m3u8
+
+#EXTINF:-1, BBC Radio - Jersey
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_jersey.m3u8
+
+#EXTINF:-1, BBC Radio - Kent
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_kent.m3u8
+
+#EXTINF:-1, BBC Radio - Lancashire
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_lancashire.m3u8
+
+#EXTINF:-1, BBC Radio - Leeds
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_leeds.m3u8
+
+#EXTINF:-1, BBC Radio - Leicester
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_leicester.m3u8
+
+#EXTINF:-1, BBC Radio - Lincolnshire
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_lincolnshire.m3u8
+
+#EXTINF:-1, BBC Radio - London
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_london.m3u8
+
+#EXTINF:-1, BBC Radio - Manchester
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_manchester.m3u8
+
+#EXTINF:-1, BBC Radio - Merseyside
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_merseyside.m3u8
+
+#EXTINF:-1, BBC Radio - Nan Gaidheal
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_nan_gaidheal.m3u8
+
+#EXTINF:-1, BBC Radio - Newcastle
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_newcastle.m3u8
+
+#EXTINF:-1, BBC Radio - Norfolk
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_norfolk.m3u8
+
+#EXTINF:-1, BBC Radio - Northampton
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_northampton.m3u8
+
+#EXTINF:-1, BBC Radio - Nottingham
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_nottingham.m3u8
+
+#EXTINF:-1, BBC Radio - Orkney
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_orkney.m3u8
+
+#EXTINF:-1, BBC Radio - Oxford
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_oxford.m3u8
+
+#EXTINF:-1, BBC Radio - Scotland FM
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_scotland_fm.m3u8
+
+#EXTINF:-1, BBC Radio - Scotland MW
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_scotland_mw.m3u8
+
+#EXTINF:-1, BBC Radio - Sheffield
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_sheffield.m3u8
+
+#EXTINF:-1, BBC Radio - Shropshire
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_shropshire.m3u8
+
+#EXTINF:-1, BBC Radio - Solent
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_solent.m3u8
+
+#EXTINF:-1, BBC Radio - Solent West Dorset
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_solent_west_dorset.m3u8
+
+#EXTINF:-1, BBC Radio - Somerset Sound
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_somerset_sound.m3u8
+
+#EXTINF:-1, BBC Radio - Stoke
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_stoke.m3u8
+
+#EXTINF:-1, BBC Radio - Suffolk
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_suffolk.m3u8
+
+#EXTINF:-1, BBC Radio - Surrey
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_surrey.m3u8
+
+#EXTINF:-1, BBC Radio - Sussex
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_sussex.m3u8
+
+#EXTINF:-1, BBC Radio - Tees
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_tees.m3u8
+
+#EXTINF:-1, BBC Radio - Ulster
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_ulster.m3u8
+
+#EXTINF:-1, BBC Radio - Wales
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_wales_fm.m3u8
+
+#EXTINF:-1, BBC Radio - Wiltshire
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_wiltshire.m3u8
+
+#EXTINF:-1, BBC Radio - WM
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-on]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_wm.m3u8
+
+#EXTINF:-1, BBC Radio - York
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_york.m3u8
+
+#EXTINF:-1, BBC Radio - Three Counties
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-local-off]
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_three_counties_radio.m3u8
