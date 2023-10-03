@@ -1,6 +1,6 @@
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/homebridge/branding/latest/logos/homebridge-wordmark-logo-vertical.svg" width="200">
+<img src="https://raw.githubusercontent.com/johnpenny/homebridge.owntone.virtualradio/main/misc/homebridge-wordmark-logo-vertical.svg" width="200">
 
 </p>
 
@@ -30,49 +30,47 @@
     - You may view a verbose log of everything the plugin is doing by turning on 'Homebridge Debug Mode -D' in the 'Homebridge Settings' panel (top right ⋮)
 
 ## How Do I Tag Tracks?
-Look in the /misc/'Example Radio Playlists' directory for example playlists with some tracks pre-tagged.
+Look in the /misc/'Example Radio Playlists' directory for example BBC Radio playlists with tag examples.
 
 For an .m3u playlist your genre field will be '#EXTGENRE:' and within this field you should add your tag, as below:
 ```
 #EXTINF:-1, BBC Radio - Four
 #EXTALB: Live Broadcast
-#EXTGENRE: Live Radio [hovr] <--- THIS IS THE GENRE TAG - USE BRACKETS AND UNIQUE TAGS TO AVOID FALSE MATCHES
+#EXTGENRE: Live Radio [bbc-on] <--- THIS IS THE GENRE TAG - USE BRACKETS AND UNIQUE TAGS TO AVOID FALSE MATCHES
 http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-syndication-high/proto/http/transferformat/hls/vpid/bbc_radio_fourfm
 ```
 You may devise multiple tags, and each tag will be searched for. This means a playlist's tracks can each have different tags for different purposes. DO NOT use multiple tags on the same track, as this will cause multiple switches to be generated for a single track. By using multiple tags you can have groups of tracks that will show up depending on the plugin settings. For example you may have a [UKRadio] tag and a [USARadio] tag, allowing you to include/exclude these track groups via the plugin settings.
 
-If you wish to use these BBC Radio playlists you can simply drop them in to OwnTone, and use the default tag of [hovr] for them, then you can devise your own tags such as [siri], [UKRadio], [USARadio], to add to your own playlists. Just make sure you add the tags in the plugin settings!
+If you wish to use these example BBC Radio playlists you can simply drop them into OwnTone, and add the tags [bbc-on] and [bbc-local-on] in the plugin settings. Make sure to use the 'BBC Radio International' playlist if you are not in the UK.
 
-To view the genre field within OwnTone click on the vertical elipsis icon on a track '⋮' and you can view all the track details.
+You do NOT need the -off variant tags such as [bbc-off], I have used them as an example of a non matching tag that can be edited easily into a matching tag. To ignore a track just do not add a matching tag to its genre field.
 
-Keep in mind that if you tag non stream tracks, they will not loop or do anything clever, they will just play out and the OwnTone track queue will move on.
+To view the genre field within OwnTone click on the vertical ellipsis icon on a track '⋮' and you can view all the track details.
+
+Keep in mind that if you tag non-stream tracks, they will not loop or do anything clever, they will just play out and the OwnTone track queue will move on.
 
 ## Using Defaults, What Are The Siri Commands?
 ### Virtual Radio Switch Control
 While in the same room (to affect that room only):
-> Hey Siri turn on the Radio
+> Hey Siri turn [on]/[off] the Radio
 
-> Hey Siri switch on the Radio
+> Hey Siri switch [on]/[off] the Radio
 
 While anywhere (to affect a named room only):
-> Hey Siri turn on the Radio in the NAMED room
+> Hey Siri turn [on]/[off] the Radio in the [named] room
 
-> Hey Siri switch on the Radio in the NAMED room
+> Hey Siri switch [on]/[off] the Radio in the [named] room
 
 While anywhere (to affect all switches):
-> Hey Siri turn on the Radio everywhere
+> Hey Siri turn [on]/[off] the Radio everywhere
 
-> Hey Siri switch on the Radio everywhere
+> Hey Siri switch [on]/[off] the Radio everywhere
 
 ### Radio Station Switch Control
 While anywhere:
 > Hey Siri turn on Radio Six Music
 
 > Hey Siri switch on Radio Six Music
-
-> Hey Siri turn on Radio Four
-
-> Hey Siri switch on Radio Four
 
 DO NOT SAY: (NOTE that using 'to' is not valid)
 > Hey Siri switch to Radio Six Music
@@ -93,8 +91,8 @@ NOTE: saying 'BBC Radio'+'anything' causes all of my Apple devices to play 'BBC 
 ## Anticipated Questions & Answers
 - Q: Can I use this to make OwnTone on/off switches for my rooms, then use the web UI to play anything I want?
     - A: Yes; You can name the 'Virtual Radios' anything you want and use them only for OwnTone output control
-- Q: Can I use these BBC Radio playlists from anywhere?
-    - A: I do not know, try it. Only a couple of stations have notes about geo-locking. I recommend 'Radio Four' and 'Radio Six Music' if you do try them
+- Q: Can I use these BBC Radio playlists from outside the UK?
+    - A: There is an international playlist in the examples file. Please let me know if it does not work from outside the UK. Note that it is lower quality than the UK streams.
 - Q: Does this mess up my OwnTone queue?
     - A: It should not, if it does please report it to me. It places the stream track in the next queue slot and skips to it, so it should not cause issues
 - Q: Can you add playlist/artist/genre/album stations?
