@@ -1,7 +1,7 @@
 {
   "displayName": "OwnTone Virtual Radio",
   "name": "@johnpenny/homebridge-owntone-virtual-radio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Assign OwnTone outputs to virtual radio switches, and play radio streams in OwnTone with switches. Requires an OwnTone server instance running.",
   "license": "Apache-2.0",
   "repository": {
