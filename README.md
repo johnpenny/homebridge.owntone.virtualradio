@@ -7,6 +7,9 @@
 
 # Homebridge – OwnTone – Virtual Radio
 
+## IMPORTANT
+If the plugin has stopped working with the example BBC playlist it will be because after September 2023 the BBC has changed its radio streaming service. You do NOT need to update the npm package, simply replace the playlists in OwnTone with the new ones in this repo.
+
 ## What Does It Do?
 - It creates virtual 'Radio' devices that can be placed in appropriate rooms, and activated via Siri
     - It links these radio devices to the OwnTone compatible outputs you desire
