@@ -7,8 +7,8 @@
 
 # Homebridge – OwnTone – Virtual Radio
 
-## IMPORTANT
-If the plugin has stopped working with the example BBC playlist it will be because after September 2023 the BBC has changed its radio streaming service. You do NOT need to update the npm package, simply replace the playlists in OwnTone with the new ones in this repo.
+## IMPORTANT - BBC Radio Playlists URLs Have Changed
+If the plugin has stopped working with the example BBC playlist it will be because after September 2023 the BBC has changed its radio streaming service. You do NOT need to update the npm package, simply replace the playlists in OwnTone with the new ones in this repo, and then reboot Homebridge twice to rectify the accessories. Hopefully such a wholesale change will be rare.
 
 ## What Does It Do?
 - It creates virtual 'Radio' devices that can be placed in appropriate rooms, and activated via Siri
@@ -33,20 +33,20 @@ If the plugin has stopped working with the example BBC playlist it will be becau
     - You may view a verbose log of everything the plugin is doing by turning on 'Homebridge Debug Mode -D' in the 'Homebridge Settings' panel (top right ⋮)
 
 ## How Do I Tag Tracks?
-Look in the /misc/'Example Radio Playlists' directory for example BBC Radio playlists with tag examples.
+If you are viewing the NPM package please first [navigate to the GitHub repository](https://github.com/johnpenny/homebridge.owntone.virtualradio) and then look in the ['/misc/Example Radio Playlists' directory](https://github.com/johnpenny/homebridge.owntone.virtualradio/tree/105110c681f2637af2e4e7654649c2b2f23d3d36/misc/Example%20Radio%20Playlists) for example BBC Radio playlists with tag examples.
 
 For an .m3u playlist your genre field will be '#EXTGENRE:' and within this field you should add your tag, as below:
 ```
 #EXTINF:-1, BBC Radio - Four
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on] <--- THIS IS THE GENRE TAG - USE BRACKETS AND UNIQUE TAGS TO AVOID FALSE MATCHES
-http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-syndication-high/proto/http/transferformat/hls/vpid/bbc_radio_fourfm
+http://urlhere
 ```
-You may devise multiple tags, and each tag will be searched for. This means a playlist's tracks can each have different tags for different purposes. DO NOT use multiple tags on the same track, as this will cause multiple switches to be generated for a single track. By using multiple tags you can have groups of tracks that will show up depending on the plugin settings. For example you may have a [UKRadio] tag and a [USARadio] tag, allowing you to include/exclude these track groups via the plugin settings.
+You may devise multiple tags, and each tag added in your plguin settings will be searched for. This means a playlist's tracks can each have different tags for different purposes. DO NOT use multiple matching tags on the same track, as this will cause multiple switches to be generated for a single track. By using multiple tags you can have groups of tracks that will show up depending on the plugin settings. For example you may have a [UKRadio] tag and a [USARadio] tag, or a [bbc-on] and a [bbc-off] tag, allowing you to include/exclude these track groups via the plugin settings. This allows you granular control within Homebridge for very large playlists by simply editing the playlist tags to match those defined in the plugin settings.
+
+You do NOT need the -off variant tags such as [bbc-off], I have used them as an example of a non matching tag that can be edited easily into a matching tag. To ignore a track simply do not add any matching tag to its genre field.
 
 If you wish to use these example BBC Radio playlists you can simply drop them into OwnTone, and add the tags [bbc-on] and [bbc-local-on] in the plugin settings. Make sure to use the 'BBC Radio International' playlist if you are not in the UK.
-
-You do NOT need the -off variant tags such as [bbc-off], I have used them as an example of a non matching tag that can be edited easily into a matching tag. To ignore a track just do not add a matching tag to its genre field.
 
 To view the genre field within OwnTone click on the vertical ellipsis icon on a track '⋮' and you can view all the track details.
 
