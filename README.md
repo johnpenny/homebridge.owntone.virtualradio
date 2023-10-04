@@ -47,7 +47,7 @@ The default tag is [hovr] (Homebridge OwnTone Virtual Radio) when setting up tag
 
 You may devise as many tags as you wish, and each tag added in your plugin settings will be searched for. This means a playlist's tracks can each have different tags for different purposes. DO NOT use multiple matching tags on the same track, as this will cause multiple switches to be generated for a single track. 
 
-By using multiple tags you can have groups of tracks that will show up depending on the plugin settings. For example you may have a [UKRadio] tag and a [USARadio] tag, or a [bbc-on] and a [bbc-off] tag, allowing you to include/exclude these track groups via the plugin settings. This allows you granular control within Homebridge for very large playlists by simply editing the playlist tags to match those defined in the plugin settings.
+By using multiple tags you can have groups of tracks that will show up depending on the plugin settings. For example you may have a [UKRadio] tag and a [USARadio] tag, or a [bbc-on] and a [bbc-off] tag, allowing you to include/exclude these track groups via the plugin settings. This allows you granular control within Homebridge for very large playlists by simply editing the playlist tags to match those defined in the plugin settings. 
 
 You do NOT need the -off variant tags such as [bbc-off], I have used them as an example of a non matching tag that can be edited easily into a matching tag. To ignore a track simply do not add any matching tag to its genre field.
 
