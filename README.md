@@ -13,6 +13,8 @@
 
 > [!NOTE]
 > The playlist URLs have changed again: January 2025
+>
+> The new BBC playlist CDN (I don't know if it is official) is protected by reCAPTCHA; that means you must visit the playlist link *with your IP exposed* to solve it before you can use the links through audio players like OwnTone. You will get 401 Unauthorized errors until you do so.
 
 ## What Does It Do?
 - It creates virtual 'Radio' devices that can be placed in appropriate rooms, and activated via Siri
