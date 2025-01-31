@@ -14,7 +14,7 @@
 > [!NOTE]
 > The playlist URLs have changed again: January 2025
 >
-> The new BBC playlist CDN (I don't know if it is official) is protected by reCAPTCHA; that means you must visit the playlist link *in a web browser with your IP exposed* to solve the captcha before you can use the links through audio players like OwnTone. You will get 401 Unauthorized errors until you do so.
+> The new BBC playlist CDN (I don't know if it is official) is protected by reCAPTCHA; that means you must visit the playlist link *in a web browser with your IP exposed* to solve the captcha before you can use the links through audio players like OwnTone. You may get 401 Unauthorized errors (& OwnTone 500 Server errors) until you do so. [UK playlist example link](http://lstn.lv/bbcradio.m3u8?station=bbc_radio_one&bitrate=320000&uk=1) – [International playlist example link](http://lstn.lv/bbcradio.m3u8?station=bbc_radio_one&bitrate=96000&uk=0)
 
 ## What Does It Do?
 - It creates virtual 'Radio' devices that can be placed in appropriate rooms, and activated via Siri
