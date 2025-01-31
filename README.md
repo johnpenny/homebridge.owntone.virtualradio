@@ -39,7 +39,7 @@
     - You may view a verbose log of everything the plugin is doing by turning on 'Homebridge Debug Mode -D' in the 'Homebridge Settings' panel (top right ⋮)
 
 ## How Do I Tag Tracks?
-If you are viewing the npm package please first [navigate to the GitHub repository](https://github.com/johnpenny/homebridge.owntone.virtualradio) and then look in the ['/misc/Example Radio Playlists' directory](https://github.com/johnpenny/homebridge.owntone.virtualradio/tree/105110c681f2637af2e4e7654649c2b2f23d3d36/misc/Example%20Radio%20Playlists) for example BBC Radio playlists with tag examples.
+If you are viewing the npm package please first [navigate to the GitHub repository](https://github.com/johnpenny/homebridge.owntone.virtualradio) and then look in the ['/misc/Example Radio Playlists' directory](https://github.com/johnpenny/homebridge.owntone.virtualradio/tree/main/misc/Example%20Radio%20Playlists) for example BBC Radio playlists with tag examples.
 
 For an .m3u playlist your genre field will be '#EXTGENRE:' and within this field you should add your tag, as below:
 ```
