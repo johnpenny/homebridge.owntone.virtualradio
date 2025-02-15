@@ -63,7 +63,12 @@ http://as-hls-uk-live.akamaized.net/pool_81827798/live/uk/bbc_6music/bbc_6music.
 #EXTINF:-1, BBC Radio - World Service
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on]
-http://as-hls-uk-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.norewind.m3u8
+http://as-hls-uk-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - World Service News Internet
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_07364996/live/ww/bbc_world_service_news_internet/bbc_world_service_news_internet.isml/bbc_world_service_news_internet-audio%3d320000.norewind.m3u8
 
 #EXTINF:-1, BBC Radio - Sounds News
 #EXTALB: Live Broadcast
