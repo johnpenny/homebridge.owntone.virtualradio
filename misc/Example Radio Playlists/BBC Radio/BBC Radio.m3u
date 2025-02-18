@@ -5,20 +5,20 @@
 #EXTGENRE: Live Radio [bbc-on]
 http://as-hls-uk-live.akamaized.net/pool_01505109/live/uk/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d320000.norewind.m3u8
 
-#EXTINF:-1, BBC Radio - One Xtra
+#EXTINF:-1, BBC Radio - One Anthems
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on]
-http://as-hls-uk-live.akamaized.net/pool_92079267/live/uk/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio%3d320000.norewind.m3u8
+http://as-hls-uk-live.akamaized.net/pool_11351741/live/uk/bbc_radio_one_anthems/bbc_radio_one_anthems.isml/bbc_radio_one_anthems-audio%3d320000.norewind.m3u8
 
 #EXTINF:-1, BBC Radio - One Dance
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on]
 http://as-hls-uk-live.akamaized.net/pool_62063831/live/uk/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio%3d320000.norewind.m3u8
 
-#EXTINF:-1, BBC Radio - One Anthems
+#EXTINF:-1, BBC Radio - One Xtra
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on]
-http://as-hls-uk-live.akamaized.net/pool_11351741/live/uk/bbc_radio_one_anthems/bbc_radio_one_anthems.isml/bbc_radio_one_anthems-audio%3d320000.norewind.m3u8
+http://as-hls-uk-live.akamaized.net/pool_92079267/live/uk/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio%3d320000.norewind.m3u8
 
 #EXTINF:-1, BBC Radio - Two
 #EXTALB: Live Broadcast
@@ -40,6 +40,10 @@ http://as-hls-uk-live.akamaized.net/pool_30624046/live/uk/bbc_radio_three_unwind
 #EXTGENRE: Live Radio [bbc-on]
 http://as-hls-uk-live.akamaized.net/pool_55057080/live/uk/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d320000.norewind.m3u8
 
+
+#! 410: ERROR FETCHING VARIANT bbc_radio_fourlw
+#! URL: http://as-hls-uk-live.akamaized.net/pool_904/live/uk/bbc_radio_fourlw/bbc_radio_fourlw.isml/bbc_radio_fourlw-audio%3d320000.norewind.m3u8
+
 #EXTINF:-1, BBC Radio - Four Extra
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on]
@@ -60,45 +64,20 @@ http://as-hls-uk-live.akamaized.net/pool_47700285/live/uk/bbc_radio_five_live_sp
 #EXTGENRE: Live Radio [bbc-on]
 http://as-hls-uk-live.akamaized.net/pool_81827798/live/uk/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8
 
-#EXTINF:-1, BBC Radio - World Service
+#EXTINF:-1, BBC Radio - Asian Network
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on]
-http://as-hls-uk-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d320000.norewind.m3u8
-
-#EXTINF:-1, BBC Radio - World Service News Internet
-#EXTALB: Live Broadcast
-#EXTGENRE: Live Radio [bbc-off]
-http://as-hls-uk-live.akamaized.net/pool_07364996/live/ww/bbc_world_service_news_internet/bbc_world_service_news_internet.isml/bbc_world_service_news_internet-audio%3d320000.norewind.m3u8
-
-#EXTINF:-1, BBC Radio - Sounds News
-#EXTALB: Live Broadcast
-#EXTGENRE: Live Radio [bbc-on]
-http://as-hls-uk-live.akamaized.net/pool_53367543/live/uk/bbc_sounds_news/bbc_sounds_news.isml/bbc_sounds_news-audio%3d320000.norewind.m3u8
+http://as-hls-uk-live.akamaized.net/pool_22108647/live/uk/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d320000.norewind.m3u8
 
 #EXTINF:-1, BBC Radio - Cbeebies
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on]
 http://as-hls-uk-live.akamaized.net/pool_33504832/live/uk/cbeebies_radio/cbeebies_radio.isml/cbeebies_radio-audio%3d320000.norewind.m3u8
 
-#EXTINF:-1, BBC Radio - Asian Network
+#EXTINF:-1, BBC Radio - Sounds News
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-on]
-http://as-hls-uk-live.akamaized.net/pool_22108647/live/uk/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d320000.norewind.m3u8
-
-#EXTINF:-1, BBC Radio - Coventry Warwickshire
-#EXTALB: Live Broadcast
-#EXTGENRE: Live Radio [bbc-off]
-http://as-hls-uk-live.akamaized.net/pool_79805333/live/uk/bbc_radio_coventry_warwickshire/bbc_radio_coventry_warwickshire.isml/bbc_radio_coventry_warwickshire-audio%3d320000.norewind.m3u8
-
-#EXTINF:-1, BBC Radio - Essex
-#EXTALB: Live Broadcast
-#EXTGENRE: Live Radio [bbc-off]
-http://as-hls-uk-live.akamaized.net/pool_23657270/live/uk/bbc_radio_essex/bbc_radio_essex.isml/bbc_radio_essex-audio%3d320000.norewind.m3u8
-
-#EXTINF:-1, BBC Radio - Hereford Worcester
-#EXTALB: Live Broadcast
-#EXTGENRE: Live Radio [bbc-off]
-http://as-hls-uk-live.akamaized.net/pool_80112859/live/uk/bbc_radio_hereford_worcester/bbc_radio_hereford_worcester.isml/bbc_radio_hereford_worcester-audio%3d320000.norewind.m3u8
+http://as-hls-uk-live.akamaized.net/pool_53367543/live/uk/bbc_sounds_news/bbc_sounds_news.isml/bbc_sounds_news-audio%3d320000.norewind.m3u8
 
 #EXTINF:-1, BBC Radio - Berkshire
 #EXTALB: Live Broadcast
@@ -119,6 +98,11 @@ http://as-hls-uk-live.akamaized.net/pool_21074581/live/uk/bbc_radio_cambridge/bb
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-off]
 http://as-hls-uk-live.akamaized.net/pool_72477894/live/uk/bbc_radio_cornwall/bbc_radio_cornwall.isml/bbc_radio_cornwall-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Coventry Warwickshire
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_79805333/live/uk/bbc_radio_coventry_warwickshire/bbc_radio_coventry_warwickshire.isml/bbc_radio_coventry_warwickshire-audio%3d320000.norewind.m3u8
 
 #EXTINF:-1, BBC Radio - Cumbria
 #EXTALB: Live Broadcast
@@ -145,6 +129,11 @@ http://as-hls-uk-live.akamaized.net/pool_63732303/live/uk/bbc_radio_derby/bbc_ra
 #EXTGENRE: Live Radio [bbc-off]
 http://as-hls-uk-live.akamaized.net/pool_08856933/live/uk/bbc_radio_devon/bbc_radio_devon.isml/bbc_radio_devon-audio%3d320000.norewind.m3u8
 
+#EXTINF:-1, BBC Radio - Essex
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_23657270/live/uk/bbc_radio_essex/bbc_radio_essex.isml/bbc_radio_essex-audio%3d320000.norewind.m3u8
+
 #EXTINF:-1, BBC Radio - Foyle
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-off]
@@ -159,6 +148,11 @@ http://as-hls-uk-live.akamaized.net/pool_74607547/live/uk/bbc_radio_gloucestersh
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-off]
 http://as-hls-uk-live.akamaized.net/pool_65313722/live/uk/bbc_radio_guernsey/bbc_radio_guernsey.isml/bbc_radio_guernsey-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Hereford Worcester
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_80112859/live/uk/bbc_radio_hereford_worcester/bbc_radio_hereford_worcester.isml/bbc_radio_hereford_worcester-audio%3d320000.norewind.m3u8
 
 #EXTINF:-1, BBC Radio - Humberside
 #EXTALB: Live Broadcast
@@ -260,6 +254,11 @@ http://as-hls-uk-live.akamaized.net/pool_59378121/live/uk/bbc_radio_scotland_mw/
 #EXTGENRE: Live Radio [bbc-off]
 http://as-hls-uk-live.akamaized.net/pool_19967704/live/uk/bbc_radio_sheffield/bbc_radio_sheffield.isml/bbc_radio_sheffield-audio%3d320000.norewind.m3u8
 
+#EXTINF:-1, BBC Radio - Shetland
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_23386112/live/uk/bbc_radio_shetland/bbc_radio_shetland.isml/bbc_radio_shetland-audio%3d320000.norewind.m3u8
+
 #EXTINF:-1, BBC Radio - Shropshire
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-off]
@@ -305,10 +304,20 @@ http://as-hls-uk-live.akamaized.net/pool_76643803/live/uk/bbc_radio_sussex/bbc_r
 #EXTGENRE: Live Radio [bbc-off]
 http://as-hls-uk-live.akamaized.net/pool_08918172/live/uk/bbc_tees/bbc_tees.isml/bbc_tees-audio%3d320000.norewind.m3u8
 
+#EXTINF:-1, BBC Radio - Three Counties
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_69997923/live/uk/bbc_three_counties_radio/bbc_three_counties_radio.isml/bbc_three_counties_radio-audio%3d320000.norewind.m3u8
+
 #EXTINF:-1, BBC Radio - Ulster
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-off]
 http://as-hls-uk-live.akamaized.net/pool_31244774/live/uk/bbc_radio_ulster/bbc_radio_ulster.isml/bbc_radio_ulster-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Wales AM
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_34167727/live/uk/bbc_radio_wales_am/bbc_radio_wales_am.isml/bbc_radio_wales_am-audio%3d320000.norewind.m3u8
 
 #EXTINF:-1, BBC Radio - Wales FM
 #EXTALB: Live Broadcast
@@ -330,7 +339,126 @@ http://as-hls-uk-live.akamaized.net/pool_05353924/live/uk/bbc_wm/bbc_wm.isml/bbc
 #EXTGENRE: Live Radio [bbc-off]
 http://as-hls-uk-live.akamaized.net/pool_90848428/live/uk/bbc_radio_york/bbc_radio_york.isml/bbc_radio_york-audio%3d320000.norewind.m3u8
 
-#EXTINF:-1, BBC Radio - Three Counties
+#EXTINF:-1, BBC Radio - World Service
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-on]
+http://as-hls-uk-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - World Service Americas
 #EXTALB: Live Broadcast
 #EXTGENRE: Live Radio [bbc-off]
-http://as-hls-uk-live.akamaized.net/pool_69997923/live/uk/bbc_three_counties_radio/bbc_three_counties_radio.isml/bbc_three_counties_radio-audio%3d320000.norewind.m3u8
+http://as-hls-uk-live.akamaized.net/pool_10495161/live/ww/bbc_world_service_americas/bbc_world_service_americas.isml/bbc_world_service_americas-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - World Service Australasia
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_98328812/live/ww/bbc_world_service_australasia/bbc_world_service_australasia.isml/bbc_world_service_australasia-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - World Service East Africa
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_51530745/live/ww/bbc_world_service_east_africa/bbc_world_service_east_africa.isml/bbc_world_service_east_africa-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - World Service East Asia
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_31623735/live/ww/bbc_world_service_east_asia/bbc_world_service_east_asia.isml/bbc_world_service_east_asia-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - World Service Europe
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_86406537/live/ww/bbc_world_service_europe/bbc_world_service_europe.isml/bbc_world_service_europe-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - World Service News Internet
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_07364996/live/ww/bbc_world_service_news_internet/bbc_world_service_news_internet.isml/bbc_world_service_news_internet-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - World Service South Asia
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_80670621/live/ww/bbc_world_service_south_asia/bbc_world_service_south_asia.isml/bbc_world_service_south_asia-audio%3d320000.norewind.m3u8
+
+
+#! 404: ERROR FETCHING URL bbc_world_service_uk
+#! URL: http://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/uk/pc_hd_abr_v2/ak/bbc_world_service_uk.m3u8
+
+#EXTINF:-1, BBC Radio - World Service West Africa
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_00924885/live/ww/bbc_world_service_west_africa/bbc_world_service_west_africa.isml/bbc_world_service_west_africa-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Afrique
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_26340777/live/ww/bbc_afrique_radio/bbc_afrique_radio.isml/bbc_afrique_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Amharic
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_97636461/live/ww/bbc_amharic_radio/bbc_amharic_radio.isml/bbc_amharic_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Arabic
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_27085945/live/ww/bbc_arabic_radio/bbc_arabic_radio.isml/bbc_arabic_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Burmese
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_55314554/live/ww/bbc_burmese_radio/bbc_burmese_radio.isml/bbc_burmese_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Dari
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_75395052/live/ww/bbc_dari_radio/bbc_dari_radio.isml/bbc_dari_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Gahuza
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_72929080/live/ww/bbc_gahuza_radio/bbc_gahuza_radio.isml/bbc_gahuza_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Hausa
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_48023020/live/ww/bbc_hausa_radio/bbc_hausa_radio.isml/bbc_hausa_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Korean
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_73316454/live/ww/bbc_korean_radio/bbc_korean_radio.isml/bbc_korean_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Nepali
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_67752688/live/ww/bbc_nepali_radio/bbc_nepali_radio.isml/bbc_nepali_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Oromo
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_08482226/live/ww/bbc_oromo_radio/bbc_oromo_radio.isml/bbc_oromo_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Pashto
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_76847612/live/ww/bbc_pashto_radio/bbc_pashto_radio.isml/bbc_pashto_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Somali
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_65497006/live/ww/bbc_somali_radio/bbc_somali_radio.isml/bbc_somali_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Swahili
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_68468159/live/ww/bbc_swahili_radio/bbc_swahili_radio.isml/bbc_swahili_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Tigrinya
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_99423635/live/ww/bbc_tigrinya_radio/bbc_tigrinya_radio.isml/bbc_tigrinya_radio-audio%3d320000.norewind.m3u8
+
+#EXTINF:-1, BBC Radio - Uzbek
+#EXTALB: Live Broadcast
+#EXTGENRE: Live Radio [bbc-off]
+http://as-hls-uk-live.akamaized.net/pool_36002112/live/ww/bbc_uzbek_radio/bbc_uzbek_radio.isml/bbc_uzbek_radio-audio%3d320000.norewind.m3u8
